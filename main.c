@@ -109,7 +109,9 @@ int restoDivisione(int dividendo, int divisore) {
  * La parte decimale è, ovviamente, sempre inferiore a 1.
  */
 float parteDecimaleDivisione(int dividendo, int divisore) {
-    // TODO Implementa il codice della funzione
-    return -1;
+    float pdd=0;
+    pdd= dividendo/divisore;
+    pdd=pdd/divisore;
+    return pdd;
 }
 
